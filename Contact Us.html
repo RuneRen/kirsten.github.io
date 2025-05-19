@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustValorant-Contact Us</title>
+    <link rel="stylesheet" href="Contact Us.css" type="text/css">
+</head>
+<body>
+    
+<!--For the menu bar-->
+    <nav class="menu">
+        <img src="C:\Users\ryant\Desktop\Assessment 2- Web Programming\Assessment 2\Images\Logo wo color.JPG" width="100px" class="BWLogo"> <!--The logo-->
+        <h1 class="JV"> JustValorant</h1><!--The logo name-->
+        <a class="active" href="Contact Us.html">Contact Us</a> <!--the active page selected by user-->
+        <a href="index.html">Home</a>
+        <a href="Agents.html">Agents</a>
+        <a href="Maps.html">Maps</a>
+        <a href="Guides.html">Guides</a></b>
+    </nav>
+
+    <!--a div class for the Form-->
+    <div class="FC">
+        <form id="contactForm">
+            <h1>Contact Us Form</h1>
+            <!--A input for the fist and last name, email, and mobile number of the user
+            with a required so that the user cannot proceed without filling it up-->
+
+            <input type="text" id="FirstName" placeholder="First Name" required>
+            <input type="text" id="LastName" placeholder="Last Name" required>
+            <input type="email" id="Email" placeholder="Email" required>
+            <input type="text" id="Mobile" placeholder="Mobile" required>
+
+            <!--A input for whatever the user wants to send-->
+            <h3>Type your request/message here:</h3>
+            <textarea required></textarea>
+
+            <!--a button to submit the input-->
+            <input type="submit" value="Send" id="Button">
+        </form>
+    </div>
+
+    <!--For the alert button-->
+    <div id="overlay">
+        <div id="customAlert">
+            <p>Thank you for contacting us!!!</p>
+            <button id="alertBtn">OK</button>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; JustValorant</p>
+    </footer>
+
+    <!--to link to the Js-->
+    <script src="Contact Us.js" type="text/javascript"></script>
+</body>
+</html>

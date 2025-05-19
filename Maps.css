@@ -1,0 +1,81 @@
+@import url(https://db.onlinewebfonts.com/c/25ec047332243d90c5f3826815f09c5b?family=Newton+Howard+Font);
+@import url(https://fonts.cdnfonts.com/css/dash-horizon);
+
+body {
+    font-family: 'Arial', serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+
+    background-image: url(BGimg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;}
+
+    
+/*
+For the design of the Menu bar, Logo and Website Name
+*/
+.menu img.BWLogo {
+    float: left;}
+
+
+.menu .JV {
+    float:left;
+    font-family: 'Newton Howard Font';
+    font-size: 30px;
+    color: #ffffff;}
+
+.menu {
+    overflow: hidden; 
+    background-color: #000000;}
+  
+.menu a {
+    float: right;
+    color:white;
+    text-align:center;
+    padding: 20px 17px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Newton Howard Font';}
+  
+.menu a:hover {
+    background-color: #283950;
+    color: rgb(255, 255, 255);}
+  
+.menu a.active {
+    background-color: #53657c;
+    color: white;}
+
+/*
+For the Maps
+*/
+
+.Maps{
+    font-family: 'Newton Howard Font';
+    font-size: 30px;
+}
+
+.Maps img{
+    opacity: 0.6;
+}
+
+.Maps img:hover{
+    opacity: 1;
+}
+
+
+/*
+For the footer 
+*/
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(39, 50, 69);
+  color: white;
+  font-family: 'Newton Howard Font'
+}
+
+

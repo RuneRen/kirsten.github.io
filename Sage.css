@@ -1,0 +1,150 @@
+@import url(https://db.onlinewebfonts.com/c/25ec047332243d90c5f3826815f09c5b?family=Newton+Howard+Font);
+@import url(https://fonts.cdnfonts.com/css/dash-horizon);
+
+body {
+    font-family: 'Arial', serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    background-image: url(Sageimg.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    }
+
+
+/*
+For the design of the Menu bar, Logo and Website Name
+*/
+.menu img.BWLogo {
+    float: left;}
+
+
+.menu .JV {
+    float:left;
+    font-family: 'Newton Howard Font';
+    font-size: 30px;
+    color: #ffffff;}
+
+.menu {
+    overflow: hidden; 
+    background-color: #000000;}
+  
+.menu a {
+    float: right;
+    color:white;
+    text-align:center;
+    padding: 20px 17px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Newton Howard Font';}
+  
+.menu a:hover {
+    background-color: #283950;
+    color: rgb(255, 255, 255);}
+  
+.menu a.active {
+    background-color: #53657c;
+    color: white;}
+
+/*
+For the abilities
+*/
+
+.abilities-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .left-column,
+  .right-column {
+    display: flex;
+    
+    flex-direction: column;
+    gap: 20px;
+    width: 45%;
+  }
+
+  .ability {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Dash Horizon';
+    font-size: 20px;
+  }
+
+  .ability-icon {
+    width: 100px;
+    height: auto;
+  }
+
+  .ability-title {
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    font-family: 'Newton Howard Font';
+    font-size: 40px;
+  }
+
+  /*
+  back button design with hover
+  */
+
+  .BackButton{
+    background-color:#c43939;
+    color: white;
+    font-size: 50px;
+    font-family: 'Newton Howard Font';
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .BackButton:hover{
+    background-color: rgb(175, 22, 22);
+}
+
+  .BandP{
+    display: flex;
+    align-items: center; 
+    gap: 30px;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+/*
+for the passive
+*/
+  .passive {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Dash Horizon';
+    font-size: 20px;
+  }
+
+  .passive-title {
+    font-weight: bold;
+    font-family: 'Newton Howard Font';
+    font-size: 40px;
+    
+  }
+
+  /*
+For the footer 
+*/
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(39, 50, 69);
+  color: white;
+  font-family: 'Newton Howard Font'
+}

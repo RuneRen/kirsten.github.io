@@ -1,0 +1,138 @@
+/*
+Importing fonts to use
+*/
+@import url(https://db.onlinewebfonts.com/c/25ec047332243d90c5f3826815f09c5b?family=Newton+Howard+Font);
+@import url(https://fonts.cdnfonts.com/css/dash-horizon);
+
+
+/*
+the body
+*/
+body {
+    font-family: 'Arial', serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+
+    background-image: url(BGimg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;}
+
+
+/*
+For the design of the Menu bar, Logo and Website Name
+*/
+.menu img.BWLogo {
+    float: left;}
+
+
+.menu .JV {
+    float:left;
+    font-family: 'Newton Howard Font';
+    font-size: 30px;
+    color: #ffffff;}
+
+.menu {
+    overflow: hidden; 
+    background-color: #000000;}
+  
+.menu a {
+    float: right;
+    color:white;
+    text-align:center;
+    padding: 20px 17px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Newton Howard Font';}
+  
+.menu a:hover {
+    background-color: #283950;
+    color: rgb(255, 255, 255);}
+  
+.menu a.active {
+    background-color: #53657c;
+    color: white;}
+
+/*
+For the button to the official website of Valorant that is placed on top of an img
+*/
+
+.OGLink{
+    position: relative;
+}
+
+.OGLink a.ButtonL{
+    position:absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:#a12e2e;
+    color: white;
+    font-size: 50px;
+    font-family: 'Newton Howard Font';
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.OGLink a.ButtonL:hover{
+    background-color: rgb(214, 55, 55);
+}
+
+/*
+For the introduction
+*/
+
+.containsIandA {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.Intro{
+    text-align: center;
+    flex: 2;
+}
+
+.Intro h2{
+    font-family: 'Newton Howard Font';
+}
+
+.Intro p{
+    font-family: 'Dash Horizon';
+}
+
+.Available{
+    text-align: center;
+    flex: 1;
+}
+
+.Available h2{
+    font-family: 'Newton Howard Font';
+}
+
+.Available ul{
+    font-family: 'Dash Horizon';
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*
+For the footer 
+*/
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(39, 50, 69);
+  color: white;
+  font-family: 'Newton Howard Font'
+}
